@@ -54,3 +54,103 @@ References
 Bednar, D. A. (2018, November). Gather together in one all things in Christ. Ensign. https://www.churchofjesuschrist.org/study/general-conference/2018/10/gather-together-in-one-all-things-in-christ
 Fruhlinger, J. (2020, February 12). Marriott data breach FAQ: How did it happen and what was the impact? CSO Online.
 The Church of Jesus Christ of Latter-day Saints. (2013). The scriptures: Standard works.
+
+
+Week 4: Expansion, Deepening, and Project Integration
+
+Portfolio Link: [https://www.google.com/search?q=https://mau12321.github.io/ensign-portfolio/]
+Video Reflection Link: https://drive.google.com/file/d/1DUKFfFoedHuBbygGa6it1PYWf5Qegt08/view?usp=drive_link
+
+
+TASK 1 & 2: Spiritual Progression Portfolio Expansion
+
+When I read Doctrine and Covenants 58:26–28, I think about the Lord telling us to be 'anxiously engaged in a good cause.' Agency means more than just having the right to choose; it means we must take action to do good.
+
+As a Software Engineering student, my growth depends on my choices. I could have picked easy projects just to pass my classes. Instead, I started Visit Peru Now.
+
+My journey is all about using my coding skills in Java and Cloud Security to help traditional local artists/workers in peru. This makes my schoolwork very personal. Every time I fix a code error or improve a database, I feel happy knowing my tech skills can help people in my home country earn a better living.
+
+Alignment of Professional Competencies and Spiritual Beliefs
+
+My professional competencies—specifically in cloud architecture, database management (MySQL), and secure coding—are direct extensions of my spiritual beliefs. As I study to obtain my AWS Cloud Practitioner certification, I am learning how to build scalable, resilient systems. Spiritually, this aligns with the principle of being a "wise steward" over the resources and data entrusted to me. The technical rigor required to secure an API endpoint or encrypt user data is how I live the principle of integrity in the digital age. I do not separate the developer writing code from the disciple keeping covenants; both require exactness, honesty, and a deep respect for the individuals on the other side of the screen.
+
+Expanded Spiritual Materials (5 Additional Sources)
+
+To deepen my portfolio, I have integrated five additional sources that guide my development as a disciple-leader in the IT industry:
+
+Doctrine and Covenants 58:26-28 (Agency & Action): "For behold, it is not meet that I should command in all things... Men should be anxiously engaged in a good cause" (The Church of Jesus Christ of Latter-day Saints, 2013). This scripture drives my entrepreneurial spirit. It reminds me that waiting to be told what to code or build is insufficient; I must proactively design solutions for my community.
+
+Alma 37:6 (Small and Simple Things): "By small and simple things are great things brought to pass" (The Church of Jesus Christ of Latter-day Saints, 2013). In software engineering, massive, impactful platforms are built from small, simple lines of logic. This principle helps me avoid feeling overwhelmed by massive cloud architectures, reminding me to build function by function.
+
+Moses 1:39 (Divine Purpose): "For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man" (The Church of Jesus Christ of Latter-day Saints, 2013). While my work is temporal, its ultimate goal is to empower individuals. Providing economic stability through tech allows families the peace of mind to focus on eternal priorities.
+
+"Come What May, and Love It" (Wirthlin, 2008): Elder Wirthlin taught the importance of resilience. In software development, failure is constant—servers crash, code breaks, and APIs fail. This talk reminds me to approach debugging and system failures not with frustration, but with patience and a problem-solving mindset.
+
+"Be Not Afraid, Only Believe" (Uchtdorf, 2015): Imposter syndrome is common in the tech industry. Elder Uchtdorf’s counsel to choose faith over fear empowers me to tackle complex IT challenges—such as enterprise-level encryption or cloud deployments—believing that the Lord will magnify my technical efforts.
+
+TASK 3: Professional Growth Portfolio & Ethical Dilemma
+
+Integrated Project Narratives
+
+1. Visit Peru Now (Lamanita Travel LLC) - Secure Platform MVP
+
+Technical: Engineered a full-stack MVP utilizing JavaScript and a secure MySQL database. Architected the system with Role-Based Access Control (RBAC) to ensure different user permissions for tourists versus local administrators.
+
+Spiritual/Ethical: This project embodies my guiding principle of Disciple-Leadership in Business. By applying "Privacy by Design," I ensured that the digital bridges I built empowered the Inka knitters economically without exploiting their data, treating their digital footprints with the same reverence as their physical safety.
+
+2. Project Zenith - AI-Driven Media Metadata Management
+
+Technical: Contributed to a Python-based plugin integrating AI logic into the Jellyfin open-source architecture to automate media organization. Utilized GitHub for strict version control and collaborative branching.
+
+Spiritual/Ethical: This project developed my understanding of Data Stewardship. Organizing data efficiently to improve user experience taught me that reducing digital friction is a modern form of service.
+
+3. Secure Real Estate Bidding Cloud Framework
+
+Technical: Designed a conceptual cloud-security framework for real estate transactions, focusing on encrypting data in transit and at rest to prevent unauthorized bid manipulation.
+
+Spiritual/Ethical: Driven by the principle of Integrity, this project demonstrated my commitment to building digital environments where honesty is enforced by technical architecture, protecting consumers from fraud.
+
+Ethical Dilemma Alternative: Data Sovereignty
+
+The Dilemma: Collecting precise GPS and financial data of indigenous artisans for the Visit Peru Now app, balancing business expansion with the risk of a massive breach (similar to the 2018 Marriott Starwood disaster).
+
+Essential Principles: The core ethical principles at stake are Responsibility, Fairness, and Respect for Privacy (aligned with the ACM Code of Ethics).
+
+Alternative Solution: Instead of the standard industry approach of "collect everything now and secure it later," my alternative is to implement Data Minimization and Localized Obfuscation. Rather than storing exact GPS coordinates of vulnerable artisan homes on the central server, the app will only store regional/town-level data. The exact meeting locations will only be shared via temporary, encrypted, peer-to-peer messages once a traveler is strictly verified and a booking is confirmed.
+
+Why This is Better: This alternative adheres to the principle of Responsibility. If my cloud database is ever breached, the hackers will only find generalized region data, not the exact home addresses of vulnerable populations. It protects the artisans from digital tracking, respects their autonomy, and ensures that the technological expansion of my business does not compromise the physical safety or privacy of the people I am trying to serve.
+
+TASK 4: IT Project Refinement & Ethical Integration Report
+
+Peer Review Summary
+
+Note: I completed a peer review of my classmate’s database project, providing constructive feedback on their schema normalization and password hashing practices, emphasizing the ethical need for bcrypt over MD5.
+
+Project Refinement Report: Enhancing "Visit Peru Now" Backend
+
+1. Identification of Challenges and Ethical Implications
+Upon reviewing the initial MVP for the Visit Peru Now platform, I identified critical areas requiring refinement.
+
+Technical Challenge: The initial MySQL database stored artisan contact information and locations in plaintext. While functional for local testing, deploying this to a live environment posed a massive security risk.
+
+Ethical Consideration: Storing indigenous artisans' Personally Identifiable Information (PII) without enterprise-grade security violates the ethical principle of "Privacy by Design." Furthermore, there was no explicit UI feature gathering informed consent regarding how their data would be used.
+
+2. Project Refinements Implemented
+Based on my analysis and peer feedback, I executed the following technical enhancements:
+
+Database Encryption: I restructured the MySQL backend. I implemented AES-256 encryption at the application layer before data is written to the database. Now, fields containing artisan financial data and precise locations are fully encrypted at rest.
+
+Consent Architecture: I developed a new user-flow module that explicitly requests consent from the artisans in simple, non-technical language (translated into Spanish) before any data is logged.
+
+Cloud Migration Prep: To address scalability and physical security, I began migrating the local database schema to an AWS RDS (Relational Database Service) instance, directly applying the principles I am studying for my AWS Cloud Practitioner certification.
+
+3. Impact of Changes
+These refinements drastically altered the project's viability. Technically, the app is now prepared for secure cloud deployment and scale. Ethically, the project now actively protects its users. By prioritizing encryption and explicit consent, I have ensured that my technical architecture reflects my spiritual commitment to protecting the vulnerable and acting with absolute integrity in my professional stewardship.
+
+References
+
+The Church of Jesus Christ of Latter-day Saints. (2013). The scriptures: Standard works.
+
+Uchtdorf, D. F. (2015, October). Be not afraid, only believe. Ensign. https://www.churchofjesuschrist.org/study/general-conference/2015/10/be-not-afraid-only-believe
+
+Wirthlin, J. B. (2008, November). Come what may, and love it. Ensign. https://www.churchofjesuschrist.org/study/general-conference/2008/10/come-what-may-and-love-it
