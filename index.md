@@ -1,74 +1,46 @@
-Adding custom CSS is a great way to elevate your portfolio and make it look incredibly professional, which perfectly aligns with your Week 5 "Design and Usability Enhancements" goal! 
-
-Since you are using GitHub Pages with a single Markdown file, the easiest and most effective way to add styling is to inject a `<style>` block right at the very top of your document. I have also gone through the text you pasted and restored all the Markdown formatting (like headers, bullet points, and blockquotes) so the CSS can actually target those elements and make them look beautiful.
-
-This design uses a clean, modern aesthetic with a highly readable font, a centered layout so the text doesn't stretch too wide on desktop screens, and subtle blue accents to give it a professional tech vibe.
-
-Here is your complete, fully styled portfolio. Copy this entire code block and replace everything in your `index.md` file on GitHub with it:
-
-```markdown
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: #333333;
-    max-width: 850px;
-    margin: 40px auto;
-    padding: 0 20px;
-    background-color: #ffffff;
+  .markdown-body {
+    max-width: 850px !important;
+    margin: 40px auto !important;
+    padding: 30px !important;
+    background-color: #ffffff !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    color: #333333 !important;
   }
-  h1 {
-    color: #2c3e50;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 10px;
-    margin-top: 60px;
+  .markdown-body h1 {
+    color: #2c3e50 !important;
+    border-bottom: 3px solid #3498db !important;
+    padding-bottom: 10px !important;
+    margin-top: 60px !important;
   }
-  h2 {
-    color: #2c3e50;
-    border-bottom: 1px solid #eaeaea;
-    padding-bottom: 8px;
-    margin-top: 40px;
+  .markdown-body h2 {
+    color: #2c3e50 !important;
+    border-bottom: 1px solid #eaeaea !important;
+    padding-bottom: 8px !important;
+    margin-top: 40px !important;
   }
-  h3 {
-    color: #34495e;
-    margin-top: 30px;
+  .markdown-body h3 {
+    color: #34495e !important;
+    margin-top: 30px !important;
   }
-  a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: 500;
+  .markdown-body a {
+    color: #3498db !important;
+    font-weight: 500 !important;
   }
-  a:hover {
-    text-decoration: underline;
-  }
-  blockquote {
-    border-left: 4px solid #3498db;
-    background-color: #f8fbff;
-    margin: 20px 0;
-    padding: 15px 20px;
-    font-style: italic;
-    color: #555555;
-    border-radius: 0 4px 4px 0;
-  }
-  hr {
-    border: 0;
-    height: 1px;
-    background: #eaeaea;
-    margin: 40px 0;
-  }
-  ul {
-    margin-bottom: 20px;
-  }
-  li {
-    margin-bottom: 8px;
+  .markdown-body blockquote {
+    border-left: 4px solid #3498db !important;
+    background-color: #f8fbff !important;
+    padding: 15px 20px !important;
+    font-style: italic !important;
+    color: #555555 !important;
   }
   .resume-header {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center !important;
+    margin-bottom: 30px !important;
   }
   .resume-header h3 {
-    margin-bottom: 5px;
-    color: #2c3e50;
+    margin-bottom: 5px !important;
+    color: #2c3e50 !important;
   }
 </style>
 
