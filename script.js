@@ -161,4 +161,37 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Presentation Logic
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prev-slide');
+    const nextBtn = document.getElementById('next-slide');
+    const indicator = document.getElementById('slide-indicator');
+    let currentSlide = 0;
+
+    if (slides.length > 0) {
+        function updateSlides() {
+            slides.forEach((sl, index) => {
+                sl.classList.remove('active');
+                if (index === currentSlide) {
+                    sl.classList.add('active');
+                }
+            });
+            indicator.textContent = `${currentSlide + 1} / ${slides.length}`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                updateSlides();
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlides();
+            }
+        });
+    }
+
 });
