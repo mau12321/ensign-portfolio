@@ -177,6 +177,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
             indicator.textContent = `${currentSlide + 1} / ${slides.length}`;
+            
+            // Sync speaker notes
+            const activeSlide = document.querySelector('.slide.active');
+            const notesViewer = document.getElementById('speaker-notes-text');
+            if (activeSlide && notesViewer) {
+                notesViewer.textContent = activeSlide.getAttribute('data-notes');
+            }
         }
 
         nextBtn.addEventListener('click', () => {

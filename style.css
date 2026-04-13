@@ -781,6 +781,31 @@ footer {
     font-size: 1.2rem;
 }
 
+/* Speaker Notes */
+.speaker-notes-container {
+    background: var(--card-bg);
+    border-left: 4px solid var(--accent-teal);
+    padding: 1.5rem 2rem;
+    border-radius: 0 12px 12px 0;
+    margin-top: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.speaker-notes-container h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+    font-size: 1.1rem !important;
+    color: var(--accent-teal) !important;
+}
+
+#speaker-notes-text {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0;
+    font-style: italic;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
